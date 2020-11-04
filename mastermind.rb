@@ -1,4 +1,4 @@
-# make code for player to guess
+# initalize colour array values and set random array
 class CodeMaker
   attr_reader :colour_array, :random_code
 
@@ -9,7 +9,7 @@ class CodeMaker
   end
 end
 
-# player who must guess code
+# main game code
 class Game
   def initialize
     @code_maker = CodeMaker.new
